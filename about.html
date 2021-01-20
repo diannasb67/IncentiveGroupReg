@@ -16,10 +16,10 @@
         integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
         crossorigin="anonymous"></script>
     <style>
-        /* body {
+        body {
             text-align: center;
             margin: 0px;
-        } */
+        }
 
         @media (min-width: 100px) {
             #container {
@@ -33,6 +33,10 @@
             #container>div {
                 /* background-color: blue; */
                 /* color: white; */
+            }
+
+            .about {
+                font-size: 14px;
             }
         }
 
@@ -77,12 +81,14 @@
                 margin: 0;
             }
 
-          
+
         }
     </style>
 </head>
 
 <body>
+
+    <!-- Begin Nav -->
     <nav>
         <div class="nav-wrapper">
             <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
@@ -96,6 +102,8 @@
             </ul>
         </div>
     </nav>
+
+
     <ul class="sidenav" id="mobile-demo">
         <li><a href="index.html">Home</a></li>
         <li><a href="about.html">About</a></li>
@@ -105,27 +113,14 @@
         <li><a href="register.html">Register Now</a></li>
     </ul>
 
+    <!-- End Nav -->
 
     <div id="index-banner" class="parallax-container">
-        <div class="section no-pad-bot">
-            <div class="container">
-                <br><br>
-                
-                <div class="row center">
-                    <h5 class="header col s12 light"></h5>
-                </div>
-
-                <br><br>
-
-            </div>
-        </div>
         <div class="parallax"><img src="images/JacksonImages/bannerTeton.jpg" alt="Jackson Teton"></div>
     </div>
 
-
     <div class="container">
         <div class="section">
-
             <!--   Icon Section   -->
             <div class="row">
                 <div class="col s12 center">
@@ -148,7 +143,6 @@
                         <li>All on site staffing and support</li>
                         <li>Customized and personal gift amenities</li>
                         <li>Priceless Memories</li>
-
                 </ul>
 
             </div>
@@ -179,28 +173,24 @@
         <!-- End grid for About the FS -->
 
         <!-- Begin Card for Room Description -->
-        <div id="container">
-            <div>
-                <h2 class="center brown-text"><i class="material-icons"></i></h2>
-                <h5 class="center">Resort Room Amenities and Inclusions:</h5>
-                <ul class="orderedList about" style="list-style-type:disc">
+        <div id="container clearfix">
+            <img src="images/JacksonImages/fsMountainRoom.jpg" alt="four seasons room" class="ammenity">
+            <h2 class="center brown-text"><i class="material-icons"></i></h2>
+            <h5 class="center">Resort Room Amenities and Inclusions:</h5>
+            <ul class="orderedList about" style="list-style-type:disc">
+                <li class="aboutlist" style="text-align: center;">Wireless Internet access</li>
+                <li class="aboutlist" style="text-align: center;">Flat-screen televisions</li>
+                <li class="aboutlist" style="text-align: center;">Refrigerator</li>
+                <li class="aboutlist" style="text-align: center;">Hairdryer</li>
+                <li class="aboutlist" style="text-align: center;">Coffee maker </li>
+                <li class="aboutlist" style="text-align: center;">Down duvets and pillows</li>
+                <li class="aboutlist" style="text-align: center;">Thick terry-cloth robes</li>
+                <li class="aboutlist" style="text-align: center;">Multi-line telephone with voicemail</li>
+                <li class="aboutlist" style="text-align: center;">Iron and ironing board</li>
+                <li class="aboutlist" style="text-align: center;">Safe</li>
+                <li class="aboutlist" style="text-align: center;">Twice-daily housekeeping service</li>
 
-                    <div class="icon-block about">
-                        <li>Wireless Internet access</li>
-                        <li>Flat-screen televisions</li>
-                        <li>Refrigerator</li>
-                        <li>Hairdryer</li>
-                        <li>Coffee maker </li>
-                        <li>Down duvets and pillows</li>
-                        <li>Thick terry-cloth robes</li>
-                        <li>Multi-line telephone with voicemail</li>
-                        <li>Iron and ironing board</li>
-                        <li>Safe</li>
-                        <li>Twice-daily housekeeping service</li>
-                </ul>
-
-            </div>
-            <div><img src="images/JacksonImages/fsMountainRoom.jpg" alt="four seasons room" class="ammenity"></div>
+            </ul>
 
         </div>
         <hr>
@@ -244,23 +234,24 @@
                 </div>
             </div>
         </div>
-        <div class="parallax"><img src="./images/JacksonImages/jacksonholeWybanner.jpeg" alt="Unsplashed background img 3"></div>
+        <div class="parallax"><img src="./images/JacksonImages/jacksonholeWybanner.jpeg"
+                alt="Unsplashed background img 3"></div>
     </div>
-    
-      <footer class="page-footer black">
+
+    <footer class="page-footer black">
         <div class="container">
-          <div class="row">
-            <div class="col l6 s12">
-                <h5 class="white-text">2019</h5>
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">2019</h5>
+                </div>
+
+
             </div>
-    
-    
-          </div>
         </div>
         <div class="footer-copyright">
-    
+
         </div>
-      </footer>
+    </footer>
 
     <!--  Scripts-->
     <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
