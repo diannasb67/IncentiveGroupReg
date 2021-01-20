@@ -229,9 +229,7 @@ p {
   img {
     width: 100%;
     height: auto;
-    padding: 20px;
-
-  }
+      }
   
 }
 
@@ -248,8 +246,26 @@ p {
   img {
     width: 100%;
     height: auto;
-    padding: 20px;
+  }
 
+  .ccc {
+    color: white;
+    text-align: left;
+    margin-right: 40%;
+    font-size: 25px;
+  }
+  
+  .ccc1 {
+    color: white;
+    text-align: left;
+    margin-right: 40%;
+    font-size: 20px;
+  }
+  .ccc2 {
+    color: white;
+    text-align: left;
+    margin-right: 40%;
+    font-size: 15px;
   }
 }
 
@@ -277,10 +293,23 @@ footer.page-footer {
   font-size: 25px;
 }
 
+.ccc1 {
+  color: white;
+  text-align: left;
+  margin-right: 40%;
+  font-size: 20px;
+}
+.ccc2 {
+  color: white;
+  text-align: left;
+  margin-right: 40%;
+  font-size: 15px;
+}
+
 img {
   width: 100%;
   height: auto;
-  padding: 20px;
+ 
 
 }
 }
